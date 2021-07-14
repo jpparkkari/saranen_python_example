@@ -34,3 +34,5 @@ def api_all():
     session = Session()
     data = session.query(License).all()
     return generate_json(data)
+
+#something not working
